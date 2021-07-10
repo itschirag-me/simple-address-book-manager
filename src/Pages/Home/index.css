@@ -1,0 +1,66 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home .home__search {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.home .home__search {
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  padding: 0.5rem 0.8rem;
+}
+
+.home .home__input {
+  min-width: 15rem;
+  font-family: "Signika";
+  color: var(--color-dark-2);
+  font-size: 1rem;
+  line-height: 0.5;
+  border: none;
+  padding: 0 0.8rem;
+  transition: min-width 0.4s;
+}
+
+.home .home__nav {
+  background-color: var(--color-primary);
+  padding: 1rem 2rem;
+}
+
+.home .home__list {
+  display: flex;
+  list-style: none;
+}
+
+.home .home__items:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.home .home__input:focus {
+  min-width: 20rem;
+  transition: min-width 0.4s;
+}
+
+.home .home__input::-webkit-input-placeholder {
+  font-family: "Signika";
+  color: var(--color-dark-3);
+}
+
+.home .home__container {
+  overflow-x: auto;
+}
+
+.not_found {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

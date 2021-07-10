@@ -1,0 +1,48 @@
+.table {
+  border: 2px solid var(--color-light);
+  color: var(--color-white);
+  font-size: 1rem;
+}
+
+.table .table__head {
+  padding: 0.5rem;
+  background-color: var(--color-primary);
+}
+
+.table tr:nth-child(odd) {
+  background-color: var(--color-light);
+}
+
+.table .table__data {
+  text-align: center;
+  padding: 0.5rem;
+  color: var(--color-dark-2);
+}
+
+.table .table__icon {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 787px) {
+  .table {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .table {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .table {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .table {
+    font-size: 1rem;
+  }
+}

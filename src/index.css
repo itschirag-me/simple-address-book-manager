@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Anton";
+  src: url("./assets/fonts/Anton-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./assets/fonts/Kanit-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url("./assets/fonts/Signika-Regular.ttf");
+}
+
+:root {
+  --color-white: #ffffff;
+
+  --color-light: #e7e7e7;
+
+  --color-dark: #333;
+  --color-dark-2: #666;
+  --color-dark-3: #999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Signika";
+  color: var(--color-dark-2);
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
